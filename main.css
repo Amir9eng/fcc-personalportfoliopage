@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-blue: #45567d;
+  --main-red:  brown;
+  --main-gray: #303841;
+  --main-white: white;
+}
+
+
+html,
+body {
+  font-size: 16px;
+  font-family:  'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.navbar{
+  background-color: brown;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+   padding: 0 2%;
+}
+nav a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 1.1rem;
+}
+
+nav a:hover {
+  background-color: var(--main-blue);
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-gray);
+}
+
+#welcome-section > h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+#welcome-section > p {
+  font-size: 2.5rem;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--main-red)
+}
+
+#projects {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-blue);
+  display: flex;
+  flex-direction: column;
+
+
+}
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
+}
+
+.projects-tile {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+
+
+#project {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+
+}
+.projects-tile:hover{
+    cursor: pointer;
+}
+.project-image {
+  width: 350px;
+  height: 350;
+  object-fit: cover;
+}
+
+.project-title {
+background-color: var(--main-gray);
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+}
+.code{
+  color: var(--main-gray);
+}
+a:hover .code{
+  color: #FF4500;
+}
+.button{
+  color: white;
+  margin: auto;
+}
+.btn{
+  background-color: var(--main-gray);
+  padding: .7rem 1.5rem;
+}
+
+.button:hover .sign{
+  padding-left: .3rem;
+}
+.btn:hover{
+  background-color: brown;
+}
+.btn:hover{
+  cursor: pointer;
+}
+#contact{
+  background: var(--main-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ps{
+  color: white;
+}
