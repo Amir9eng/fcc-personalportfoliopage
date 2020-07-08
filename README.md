@@ -3,18 +3,20 @@
 
 ## Description
 -  portfolio-page  using HTML/CSS
--  product order page
+-  personal portfolio page
+
 
 
 ## Demo
- [demo](https://rawcdn.githack.com/Amir9eng/FCC-landing-page/3a962cadef64ae1e9b53093aea7b8b249f0c05f9/index.html)
+ [demo](https://fcc-portfoliopage.netlify.app/#welcome-section)
  
  ## Prequisite
 - Your browser version must be up to date for a better experience
 
 ## Features
--  A landing page for original trombones
--  email login form
+-  About 
+-  Work
+-  Contact
  
  ## Tech/framework used
 - HTML
